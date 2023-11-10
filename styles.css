@@ -1,0 +1,58 @@
+html {
+  font-size: 18px;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+body {
+  font-size: 10px;
+}
+
+p {
+  color: red;
+}
+span {
+  /* color: currentColor;*/
+  /*background: url(https://img.freepik.com/fotos-gratis/campo-campestre-dia-de-sol-no-campo_181624-24010.jpg);*/
+  /*background: linear-gradient(to bottom left, indianred, yellow); */
+  color: rgba(100, 0, 200, 0.8);
+  background: #ffffff;
+  border: 3px dashed rgba(100, 0, 200, 0.8);
+  display: inline-block;
+}
+
+span.none {
+  display: none;
+}
+
+div {
+  width: 50%;
+  /*min-width: 200px;*/
+  /*max-width: 300px;*/
+  height: 80px;
+  /*min-height: 300px;*/
+  /*max-height: 100px;*/
+  background: rgb(0, 204, 255);
+}
+
+section {
+  box-sizing: border-box;
+  background: purple;
+  /* width: 80vh;
+  height: 10vw; */
+  /* width: 20rem; */
+  margin-top: 10px;
+  /* margin-right: 10px; */
+  /* margin-bottom: 10px; */
+  /* margin-left: 10px; */
+  /* margin: 20px 10px 20px 20px; */
+  /* padding-top: 30px; */
+  /* padding-right: 30px; */
+  /* padding-bottom: 30px; */
+  /* padding-left: 30px; */
+  padding: 20px 10px 20px;
+  outline: 1px solid red;
+  border-top: 2px solid green;
+  /* width: 5em; */
+  width: 100%;
+  box-shadow: 20px 10px 100px 80px red;
+}
